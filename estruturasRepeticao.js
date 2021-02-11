@@ -1,5 +1,5 @@
 //Aula de Estruturas de Repetição - Parte 1
-/*for (var j = 0; j <= 10; j++) {
+for (var j = 0; j <= 10; j++) {
     console.log("Imprima teste 1: " + j);
 }
 
@@ -48,15 +48,14 @@ var carros = ["Gol", "Palio", "Uno", "Celta", "Sandero", "Voyage"];
             continue;
         }
         console.log(num + " é ímpar");
-    }*/
-
+    
     //Aula de Estruturas de Repetição - Parte 3
 
 var w = 30;
 do {
     w++;
     console.log(w);
-}while (w < 10);
+} while (w < 10);
 
 var carros = ["Gol", "Palio", "Uno", "Celta", "Sandero", "Voyage"];
 for (var carro of carros) {
